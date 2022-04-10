@@ -14,9 +14,9 @@
 <ul>
   @foreach(Flavor flavor in Model)
   {
-    <li>@Html.ActionLink($"{flavor.Name}", "Details", new { id = flavor.FlavorId })</li>
+    <li>@Html.ActionLink($"{flavor.FlavorName}", "Details", new { id = flavor.FlavorId })</li>
   }
 </ul>
 
-<p>@Html.ActionLink("Add new flavor", "Create")</p>
+<p>@Html.ActionLink("Add flavor", "Create")</p>
 <p>@Html.ActionLink("Home", "Index", "Home")</p>
