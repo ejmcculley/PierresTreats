@@ -1,0 +1,32 @@
+#logo {
+  font-family: 'Rock 3D', cursive;
+  color: rgb(42, 206, 102);
+  margin-right: 25%;
+}
+
+#title{
+  font-family: 'Rock 3D', cursive;
+  color: rgb(42, 206, 102);
+}
+
+#searchBar {
+  margin-left: 15%;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(244, 246, 240);
+}
+
+.nav-link {
+  color: rgb(206, 54, 236);
+}
+
+hr {
+  margin-right: 10%;
+}
+
+#subTitle {
+  font-family: 'Galada', cursive;
+  color: #101010;
+}
